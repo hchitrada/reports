@@ -6,8 +6,9 @@ version: 0.2
     build:
       commands:
         - echo Running tests 
+        
     reports:
-      opa-unittest-report: #test file information
+      testreports: #test file information
       files:
-        - 'opa-unit-test-coverage-report.json'
+        - '/opa-unit-test-coverage-report.json'
       file-format: 'SIMPLECOV'
