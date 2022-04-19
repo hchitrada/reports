@@ -1,0 +1,14 @@
+version: 0.2
+    phases:
+    install:
+        runtime-versions:
+            java: openjdk8
+    build:
+      commands:
+        - echo Running tests 
+        - <enter commands to run your tests>  
+    reports:
+      opa-unittest-report: #test file information
+      files:
+        - '/opt/opa-unit-test-coverage-report.json'
+      file-format: 'SIMPLECOV'
