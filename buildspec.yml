@@ -6,7 +6,6 @@ version: 0.2
     build:
       commands:
         - echo Running tests 
-        - <enter commands to run your tests>  
     reports:
       opa-unittest-report: #test file information
       files:
