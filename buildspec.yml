@@ -10,5 +10,5 @@ version: 0.2
     reports:
       opa-unittest-report: #test file information
       files:
-        - '/opt/opa-unit-test-coverage-report.json'
+        - 'opa-unit-test-coverage-report.json'
       file-format: 'SIMPLECOV'
