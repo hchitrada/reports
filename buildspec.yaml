@@ -18,5 +18,5 @@ phases:
 reports:
   opa-unittest-report:
     files:
-      - '/opa-unit-test-coverage-report.json'
+      - 'opa-unit-test-coverage-report.json'
     file-format: 'SIMPLECOV'
